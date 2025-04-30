@@ -12,7 +12,6 @@
 - [Technológiai stack](#technológiai-stack)
 - [Adatbázis struktúra](#adatbázis-struktúra)
 - [Projekt struktúra](#projekt-struktúra)
-- [Telepítés és beállítás](#telepítés-és-beállítás)
 - [Környezeti változók](#környezeti-változók)
 - [API végpontok](#api-végpontok)
 - [Socket.IO események](#socketio-események)
@@ -103,28 +102,6 @@ project-root/
     └── admin-panel.html      # Admin vezérlőpult
 ```
 
-## 🚀 Telepítés és beállítás
-
-```bash
-# Klónozd le a repository-t
-git clone https://github.com/yourusername/realcasino.git
-
-# Navigálj a projekt könyvtárba
-cd realcasino
-
-# Telepítsd a függőségeket
-npm install
-
-# Hozz létre .env fájlt a szükséges környezeti változókkal
-cp .env.example .env
-# Szerkeszd a .env fájlt az adatbázis hitelesítő adataiddal és egyéb beállításokkal
-
-# Importáld az adatbázis struktúrát
-mysql -u username -p your_database < database_structure.sql
-
-# Indítsd el a fejlesztői szervert
-npm run dev
-```
 
 ## 🔧 Környezeti változók
 
